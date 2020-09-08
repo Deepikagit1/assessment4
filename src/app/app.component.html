@@ -1,0 +1,30 @@
+<div class="jumbotron" style="height: 250px;">
+  <h1 class="display-4">Welcome to {{title}}</h1>
+  <hr class="my-4">
+</div>
+
+
+<div class="container">
+  <nav class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/addShoe">Add Shoe</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/updateShoe" >Update Shoe</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/deleteShoe" >Delete Shoe</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/shoesList" >Shoe List</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/searchShoe" >Search Shoes</a>
+    </li>
+  </nav>
+</div>
+
+<br/>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

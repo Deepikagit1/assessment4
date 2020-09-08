@@ -1,0 +1,16 @@
+<p>shoes-list works!</p>
+<div class="container">
+    <div class="card-deck">
+    <div class="card" style="width: 100px;" *ngFor="let shoe of shoesList">
+        <img class="card-img-top" [src]="shoe.avatar" alt="{{shoe.brand}}'s Image">
+        <div class="card-body text-center">
+            <h5 class="card-title">{{shoe.brand}}'s Details</h5>
+            <p class="card-text">Id : {{shoe.id}}</p>
+            <p class="card-text">Color : {{shoe.color}}</p>
+            <p class="card-text">Size : {{shoe.size}}</p>
+            <p class="card-text">Price : {{shoe.price}}</p>
+        </div>
+    </div>
+    
+</div>
+</div>
